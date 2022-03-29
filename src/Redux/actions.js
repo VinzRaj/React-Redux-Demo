@@ -12,3 +12,10 @@ export const setSelectedProducts = (product) => {
     payload: product,
   };
 };
+export const setsearchResults = (searchResults) => {
+  debugger;
+  return {
+    type: ActionTypes.SET_SEARCHRESULTS,
+    payload: searchResults,
+  };
+};
